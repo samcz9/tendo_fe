@@ -4,6 +4,8 @@ let url = apiUtils.baseUrl
 
 class feedbackSurveyAPI {
   postFeedbackSurvey = (auth_token, user_id, data) => {
-    return apiUtils.post(url + '/surveys/save_survey')
+    return apiUtils.post(url + '/surveys/save_survey', data, auth_token)
   }
 }
+
+export default new feedbackSurveyAPI();

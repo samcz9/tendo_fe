@@ -39,7 +39,8 @@ export default function FeedbackStepper() {
   const [understandingFeedback, setUnderstandingFeedback] = React.useState("");
   const [sentiment, setSentiment] = React.useState("") 
   const steps = getSteps();
-
+  const auth_token = '27007246b8b8a1820a928246b60f8aaa712079be'
+  const user_id = 'a1c47fdf-4968-4901-a56f-36b718c9ecee'
   const getStepContent = (step) => {
     switch (step) {
       case 0:
@@ -57,13 +58,9 @@ export default function FeedbackStepper() {
         return 'Unknown step';
     }
   }
-  const handleNext = () => {
+  const handleNext = async () => {
     if(activeStep == 2){
-      console.log(physicianRating)
-      console.log(understanding)
-      console.log(understandingFeedback)
-      console.log(sentiment)
-      data = {
+      let data = {
         physician_rating: physicianRating,
         understanding: understanding,
         understanding_notes: understandingFeedback,
