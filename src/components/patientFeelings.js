@@ -33,7 +33,7 @@ export default function DiagnosisFeedback(props) {
         </Typography>
         <Typography className={classes.text}>
           Last Question:
-          How do you feel about being diagnosed with <b><i>Diabeetus</i></b>?
+          How do you feel about being diagnosed with <b><i>Subglottic Stenonsis</i></b>?
         </Typography>
         <FormControl component="fieldset">
             <TextField

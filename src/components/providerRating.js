@@ -30,10 +30,10 @@ export default function ProviderRating(props) {
   return (
     <>
         <Typography variant="h5" align="center" className={classes.text}> 
-            Hi Sam,
+            Hi Gerald,
         </Typography>
         <Typography variant="body1" align="center" className={classes.text}>
-            You visited with Dr. Jensen today.
+            You visited with Dr. Zabriskie today.
         </Typography>
         <Typography variant="body1" align="center" className={classes.bottomText}>
             Would you recommend them to a friend or family member?

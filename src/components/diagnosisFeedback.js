@@ -39,7 +39,7 @@ export default function DiagnosisFeedback(props) {
   return (
     <>
         <Typography variant="body1" align="left">
-            You were diagnosed with <b><i>Diabeetus</i></b>.
+            You were diagnosed with <b><i>Subglottic Stenosis</i></b>.
         </Typography>
         <Typography>
             Was Dr. Jensen able to explain how to manage this diagnosis?
